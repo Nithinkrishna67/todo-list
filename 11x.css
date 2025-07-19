@@ -1,0 +1,41 @@
+ body {
+        font-family: arial;
+      }
+
+      .input-grid,
+      .js-todo-list{
+        display: grid;
+        grid-template-columns:200px 150px 100px;
+        column-gap: 10px;
+        row-gap: 15px;
+        align-items: center;
+      }
+
+      .input-grid {
+        margin-bottom: 10px;
+      }
+      .search-bar {
+        padding: 8px;
+        font-family: arial;
+        font-size: 16px;
+      }
+
+      .date-bar {
+        padding: 8px;
+        font-size: 14px;
+      }
+
+      .add-button {
+        background-color: green;
+        color: white;
+        border: none;
+        align-self: stretch;
+      }
+
+      .Delete-button {
+        color: white;
+        background-color: rgb(138, 19, 19);
+        border: none;
+        padding: 10px 10px;
+        font-size: 15px;
+      }
